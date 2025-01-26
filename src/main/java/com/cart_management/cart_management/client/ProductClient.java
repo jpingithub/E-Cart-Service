@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import com.cart_management.cart_management.dto.Product;
 import com.cart_management.cart_management.dto.ProductRequest;
 
-@FeignClient(name = "product-management")
+@FeignClient(name = "product-management", url = "https://ecommerce-product-management.onrender.com")
 public interface ProductClient {
 
     @GetMapping("/products")

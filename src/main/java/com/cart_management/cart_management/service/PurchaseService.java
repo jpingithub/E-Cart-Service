@@ -2,6 +2,7 @@ package com.cart_management.cart_management.service;
 
 import java.time.Instant;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -12,7 +13,6 @@ import com.cart_management.cart_management.dto.PurchaseDetailsResponse;
 import com.cart_management.cart_management.entity.BuyingEntity;
 import com.cart_management.cart_management.exception.NoDataFoundException;
 import com.cart_management.cart_management.repository.PurchaseRepo;
-import com.google.common.base.Optional;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;

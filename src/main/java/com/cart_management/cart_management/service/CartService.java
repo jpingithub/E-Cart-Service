@@ -1,6 +1,7 @@
 package com.cart_management.cart_management.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -11,7 +12,6 @@ import com.cart_management.cart_management.dto.Product;
 import com.cart_management.cart_management.entity.CartItem;
 import com.cart_management.cart_management.exception.NoDataFoundException;
 import com.cart_management.cart_management.repository.CartRepository;
-import com.google.common.base.Optional;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
